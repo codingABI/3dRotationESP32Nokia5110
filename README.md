@@ -1,5 +1,9 @@
 # 3dRotationESP32Nokia5110
-This demo should show the blurring effect on a Nokia 5110/PCD8544 LCD display. The display is controlled by an ESP32 and the blurring is dependent on the frame rate. I think the blurring effect up to 25 frames per second is acceptable.
+This demo should show the unwanted blurring effect on a Nokia 5110/PCD8544 LCD display. The display is controlled by an ESP32
+
+The blurring is dependent on the frame rate. I think the blurring effect up to 25 frames per second is acceptable.
+
+Watch demo on [Youtube](https://youtu.be/kJpF0a31E78)
 
 ![10 framse per second](/assets/images/fps010.png)
 
