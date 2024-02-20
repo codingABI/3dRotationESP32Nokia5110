@@ -154,7 +154,6 @@ void sortDisplayList() {
 }
 
 void setup(void) {
-  Serial.begin(9600);
   display.begin();
 
   // Font settings
@@ -189,7 +188,6 @@ void loop(void) {
       case 200: targetFPS = 10;break;
       default: targetFPS = 10;
     }
-    Serial.println(targetFPS);
     lastFPSChangeMS = millis();
   }
   while (millis() % (1000/targetFPS) != 0);
